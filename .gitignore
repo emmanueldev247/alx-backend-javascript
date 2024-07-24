@@ -1,0 +1,3 @@
+*main.js
+*.sw?
+node_modules/
