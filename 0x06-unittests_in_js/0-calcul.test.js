@@ -1,5 +1,5 @@
 const assert = require('assert')
-const { calculateNumber } = require('./0-calcul')
+const calculateNumber = require('./0-calcul')
 
 describe("Sum of 2 numbers", () => {
   it("should return 5 when 2.3 and 3 are passed", () => {
