@@ -113,5 +113,9 @@ describe("DIVIDE: Division of 2 numbers", () => {
   it("checking if number is round for 2 float numbers", () => {
     assert.strictEqual(calculateNumber('DIVIDE', 7.6, 1.8), 4.0);
   });
+
+  it("checking if 'Error' is returned", () => {
+    assert.strictEqual(calculateNumber('DIVIDE', 7.6, 0.1), "Error");
+  });
 });
 
