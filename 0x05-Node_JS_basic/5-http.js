@@ -48,7 +48,7 @@ const app = createServer((req, res) => {
     res.write('This is the list of our students\n');
     countStudents(dbPath)
       .then((output) => {
-        res.end(output.slice(0, -1));
+        res.end(output);
       })
       .catch((error) => {
         res.end(`${error.message}`);
